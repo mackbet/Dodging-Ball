@@ -29,11 +29,12 @@ public class GameController : MonoBehaviour
     private string gameId = "3806455", type="video";
     void Start()
     {   
+        /*
         Advertisement.Initialize(gameId);
-        if(Advertisement.IsReady(type) && adsActive){
+        if(Advertisement.isInitialized && adsActive){
                 adsActive=false;
                 Advertisement.Show(type);
-        }
+        }*/
         ListOfBlocks = new List<GameObject>();
         ListOfBlocks.Add(center);
         ListOfBlocks.Add(left);
